@@ -5,7 +5,7 @@ import java.util.concurrent.ConcurrentHashMap;
 
 /**
  * @Classname BeanFactory
- * @Description Bean对象容器
+ * @Description Bean对象容器,装Bean对象
  * @Date 2019/7/17 14:22
  * @Created by wuhaitao
  */
