@@ -1,5 +1,7 @@
 package com.hyetec.factory;
 
+import com.hyetec.BeanDefinition;
+
 /**
  * @Classname BeanFactory
  * @Description TODO
@@ -8,7 +10,7 @@ package com.hyetec.factory;
  */
 public interface BeanFactory {
 
-    Object getBean();
+    Object getBean(String name);
 
-    void registerBeanDefinition();
+    void registerBeanDefinition(String name, BeanDefinition beanDefinition);
 }
