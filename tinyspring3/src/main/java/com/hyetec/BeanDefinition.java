@@ -1,10 +1,9 @@
 package com.hyetec;
 
-import java.util.Properties;
 
 /**
  * @Classname BeanDefinition
- * @Description TODO
+ * @Description Bean包装对象 ： 包装Bean对象，元信息以及属性集
  * @Date 2019/7/24 20:12
  * @Created by wuhaitao
  */

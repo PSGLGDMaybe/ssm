@@ -17,7 +17,8 @@ public class PropertyValues {
     public PropertyValues() {}
 
     /**
-     * 添加属性
+     * 添加属性  list前面由final不代表不能使用add方法，而是指list的引用不能够再指向其他对象
+     * 只能指向当前已创建的对象
      * @param propertyValue
      */
     public void addPropertyValue(PropertyValue propertyValue) {

@@ -2,7 +2,7 @@ package com.hyetec;
 
 /**
  * @Classname PropertyValue
- * @Description TODO
+ * @Description 属性包括属性名和属性值
  * @Date 2019/7/24 20:16
  * @Created by wuhaitao
  */

@@ -20,6 +20,12 @@ public abstract class AbstractBeanFactory implements BeanFactory{
         return beanDefinitionMap.get(name).getBean();
     }
 
+    /**
+     * 在工厂里注册Bean包装对象
+     * @param name
+     * @param beanDefinition
+     * @throws Exception
+     */
     @Override
     public void registerBeanDefinition(String name, BeanDefinition beanDefinition) throws Exception {
         Object bean = initBean(beanDefinition);
