@@ -39,7 +39,7 @@ public class AutowireCapableBeanFactory extends AbstractBeanFactory {
      * @throws Exception
      */
     protected Object createBeanInstance(BeanDefinition beanDefinition) throws Exception{
-        return Class.forName(beanDefinition.getBeanClassName()).newInstance();
+        return beanDefinition.getBeanClass().newInstance();
     }
 
     /**
